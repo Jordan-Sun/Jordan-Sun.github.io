@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: TA
 description: 
 nav: true
 nav_order: 6
