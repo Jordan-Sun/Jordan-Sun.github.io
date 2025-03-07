@@ -42,6 +42,12 @@
       "publisher": "Springer",
       "releaseDate": "2024-04-15",
       "url": "https://link.springer.com/article/10.1007/s11241-024-09419-3"
+    },
+    {
+      "name": "Elastic Scheduling for Graceful Degradation of Mixed-Criticality Systems",
+      "publisher": "Association for Computing Machinery",
+      "releaseDate": "2025-01-03",
+      "url": "https://dl.acm.org/doi/full/10.1145/3696355.3699701"
     }
   ],
   "skills": [

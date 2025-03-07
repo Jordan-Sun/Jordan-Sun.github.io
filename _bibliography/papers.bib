@@ -10,10 +10,19 @@
   publisher = {Springer}
 }
 
-@inproceedings{sun2024elastic,
-  title={Elastic Scheduling for Graceful Degradation of Mixed-Criticality Systems},
-  author={Sun, Zhuoran and Sudvarg, Marion and Gill, Christopher},
-  booktitle={Proceedings of the 32nd International Conference on Real-Time Networks and Systems},
-  pages={218--228},
-  year={2024}
+@inproceedings{10.1145/3696355.3699701,
+  author = {Sun, Zhuoran and Sudvarg, Marion and Gill, Christopher},
+  title = {Elastic Scheduling for Graceful Degradation of Mixed-Criticality Systems},
+  year = {2025},
+  isbn = {9798400717246},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3696355.3699701},
+  doi = {10.1145/3696355.3699701},
+  abstract = {Many mixed-criticality system models drop all jobs of low-criticality tasks when a criticality mode switch occurs, ensuring that high-criticality tasks still can meet their deadlines in the new mode. However, this means that even important low-criticality tasks are discarded, which may not be acceptable in some systems in practice. This paper addresses that distinction between criticality and importance through a new Inelastic Graceful Earliest Deadline First with Virtual Deadlines (IG-EDF-VD) scheme that upon a criticality mode switch only discards the least important low-criticality tasks necessary to ensure feasibility. Moreover, we consider elastic scheduling within our mixed-criticality model (EG-EDF-VD), using compression of workload-elastic tasks’ utilizations (and, as a result, execution time budgets) to reduce further the number of low-criticality tasks that are dropped.},
+  booktitle = {Proceedings of the 32nd International Conference on Real-Time Networks and Systems},
+  pages = {218–228},
+  numpages = {11},
+  keywords = {Real-Time Systems, Mixed-Criticality Systems, Elastic Scheduling, Graceful Degradation},
+  series = {RTNS '24}
 }
